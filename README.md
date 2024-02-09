@@ -25,3 +25,6 @@ Ray Memory Usage Threshold (OutOfMemoryError)
 
 Kernel Died Unexpectedly
 - When this happens, it is best to restart your session, however, it will require you to start a new cluster and update the address accordingly
+
+Ray Shutdown
+- Make sure you run ray.shutdown() or cluster.terminate() to clean up your Ray resources
