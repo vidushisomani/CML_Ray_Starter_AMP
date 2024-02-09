@@ -1,0 +1,12 @@
+name: CML Ray Template AMP
+description: |
+  This AMP demonstrates using Ray in CML
+author: Vidushi Somani
+specification_version: 1.0
+prototype_version: 1.0
+date: "2024-02-13"
+
+runtimes:
+  - editor: JupyterLab
+    kernel: Python 3.10
+    edition: Standard
