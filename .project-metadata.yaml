@@ -8,5 +8,14 @@ date: "2024-02-13"
 
 runtimes:
   - editor: JupyterLab
-    kernel: Python 3.11
+    kernel: Python 3.10
     edition: Standard
+
+tasks:
+  - type: run_session
+    name: Install Dependencies
+    script: dependencies.py
+    short_summary: Install Dependencies
+    kernel: python3
+    cpu: 2
+    memory: 4
