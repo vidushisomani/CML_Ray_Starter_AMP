@@ -8,5 +8,5 @@ date: "2024-02-13"
 
 runtimes:
   - editor: JupyterLab
-    kernel: Python 3.10
+    kernel: Python 3.11
     edition: Standard
