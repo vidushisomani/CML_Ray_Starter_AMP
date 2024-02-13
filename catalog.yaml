@@ -1,14 +1,14 @@
-name: Ray Template
+name: Ray Starter
 
 entries:
-  - title: CML Ray Template AMP
+  - title: CML Ray Starter AMP
     label: ray
-    short_description: A series of template notebooks that demonstrate how to use Ray on CML
+    short_description: A series of starter notebooks that demonstrate how to use Ray on CML
     long_description: >-
-      A series of template notebooks that demonstrate how to launch a Ray cluster, use python libraries, train and deploy a model using Ray Tune in CML.
+      A series of starter notebooks that demonstrate how to launch a Ray cluster, use python libraries, train and deploy a model using Ray Tune in CML.
     image_path: >-
-      https://github.com/vidushisomani/CML_Ray_Template_AMP/blob/main/images/amp-cover.png?raw=true
+      https://github.com/vidushisomani/CML_Ray_Starter_AMP/blob/main/images/amp-cover.png?raw=true
     tags:
       - Ray
-    git_url: "https://github.com/vidushisomani/CML_Ray_Template_AMP.git" 
+    git_url: "https://github.com/vidushisomani/CML_Ray_Starter_AMP.git" 
     is_prototype: true
