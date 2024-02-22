@@ -1,0 +1,6 @@
+cmlextensions @ git+http://github.com/cloudera/cmlextensions.git
+ray[client]==2.6.0
+modin[all]
+torchvision
+https://${CDSW_DOMAIN}/api/v2/python.tar.gz
+scikit-learn
