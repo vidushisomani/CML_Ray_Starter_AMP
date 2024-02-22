@@ -1,6 +1,6 @@
 name: CML Ray Starter AMP
 description: |
-  This AMP demonstrates using Ray in CML
+  Once all the tasks have completed, you can start a session to run the Ray Starter notebooks to get started with using Ray in CML
 author: Vidushi Somani
 specification_version: 1.0
 prototype_version: 1.0
