@@ -26,4 +26,4 @@ headers_req = {'Content-Type': 'application/json','Authorization': 'Basic ' + v1
 
 url_project = os.environ["CDSW_PROJECT_URL"]
 runtime_body = {"runtimesEnabled": [114]}
-requests.patch(url_project, headers=headers_req, data=runtime_body)
+session.patch(url_project, json.dumps(runtime_body), headers=headers_req)
