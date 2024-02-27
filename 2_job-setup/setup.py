@@ -23,7 +23,14 @@ session.verify = False
 warnings.filterwarnings("ignore", message="Unverified HTTPS request")
 
 headers_req = {'Content-Type': 'application/json','Authorization': 'Basic ' + v1_api_key}
-
 url_project = os.environ["CDSW_PROJECT_URL"]
-runtime_body = {"runtimesEnabled": [114]}
+
+runtimes = session.get("https://"+os.environ["CDSW_DOMAIN"]+"/api/v1/runtimes?includeAll=True", headers=headers_req)
+for runtime in runtimes.json()['runtimes']:
+  if (runtime['editor'] == 'JupyterLab' and runtime['edition'] == 'Standard' 
+  and runtime['kernel'] == 'Python 3.10' and runtime['isLatest'] == True):
+    jupyter_runtime = runtime
+    break
+
+runtime_body = {"runtimesEnabled": [runtime['id']]}
 session.patch(url_project, json.dumps(runtime_body), headers=headers_req)
