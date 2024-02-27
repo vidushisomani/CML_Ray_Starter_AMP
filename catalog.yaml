@@ -1,7 +1,7 @@
-name: Ray Starter
+name: Ray on CML QuickStart
 
 entries:
-  - title: CML Ray Starter AMP
+  - title: Ray on CML QuickStart
     label: ray
     short_description: A series of starter notebooks that demonstrate how to use Ray on CML
     long_description: >-
