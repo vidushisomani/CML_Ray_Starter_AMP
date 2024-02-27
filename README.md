@@ -1,4 +1,4 @@
-# Using Ray in CML
+# Ray on CML QuickStart
 
 This AMP demonstrates Ray and its capabilities in CML. Ray is an open-source unified compute framework that makes it easy to scale AI and Python workloads.
 
