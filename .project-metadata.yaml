@@ -1,6 +1,6 @@
-name: CML Ray Starter AMP
+name: Ray on CML QuickStart
 description: |
-  Once all the tasks have completed, you can start a session to run the Ray Starter notebooks to get started with using Ray in CML
+  Once all the tasks have completed, you can start a session to run the Ray Starter notebooks to get started with using Ray on CML
 author: Vidushi Somani
 specification_version: 1.0
 prototype_version: 1.0
